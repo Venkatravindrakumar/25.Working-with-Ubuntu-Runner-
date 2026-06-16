@@ -1,12 +1,19 @@
-name: Ubuntu Runner Demo
+name: Checkout Example
 
-on:
-  push:
+on: push
 
 jobs:
-  demo:
-    runs-on: ubuntu-22.04
+ build:
+   runs-on: ubuntu-latest
 
-    steps:
-      - name: Display Message
-        run: echo "Hello from Ubuntu Runner"
+   steps:
+    - name: Checkout Repository 
+      uses: actions/checkout@v4
+
+      - name: List files
+        run: ls -la
+
+
+
+
+

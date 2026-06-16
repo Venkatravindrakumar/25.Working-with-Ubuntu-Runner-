@@ -1,4 +1,4 @@
- name: Ubuntu Runner Demo
+name: Ubuntu Runner Demo
 
 on:
   push:

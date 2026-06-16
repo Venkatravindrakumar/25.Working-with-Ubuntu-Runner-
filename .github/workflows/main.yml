@@ -5,7 +5,7 @@ on:
 
 jobs:
   demo:
-    runs-on: 22.04
+    runs-on: ubuntu 22.04
 
     steps:
       - name: Display Message
